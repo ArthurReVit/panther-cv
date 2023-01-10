@@ -1,3 +1,10 @@
+### 0.0.3
+
+- Navigation buttons on `Header.jsx` refactorized to `HeaderButton.jsx`. [Check out the component!](./src/v1/components/HeaderButton/HeaderButton.jsx).
+- `NameBadge.jsx` has been created to display the owner's name in the header. [Check out the component!](./src/v1/components/NameBadge/NameBadge.jsx).
+- First translation files have been created and integrated into `Layout.jsx`. [See Translations](./src/v1//assets/translation) | [Check the Layout component!](./src/v1/Layout/Layout.jsx).
+- Added multiple fonts (I'll put the names and links to them in the next update).
+
 ### 0.0.2
 
 - index.css has been changed to adjust general border, margin and padding to 0.

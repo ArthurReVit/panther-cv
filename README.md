@@ -20,18 +20,32 @@ This is a personal work in progress that doesn't need any contributions at this 
 
 ## Current version
 
-### 0.0.3
+### 0.0.4
 
-- Navigation buttons on `Header.jsx` refactorized to `HeaderButton.jsx`. [Check out the component!](./src/v1/components/HeaderButton/HeaderButton.jsx).
-- `NameBadge.jsx` has been created to display the owner's name in the header. [Check out the component!](./src/v1/components/NameBadge/NameBadge.jsx).
-- First translation files have been created and integrated into `Layout.jsx`. [See Translations](./src/v1//assets/translation) | [Check the Layout component!](./src/v1/Layout/Layout.jsx).
-- Added multiple fonts (I'll put the names and links to them in the next update).
+#### Layout changes:
+
+- `Header.jsx`
+
+  - Added new styles to `Header.jsx`. [Check out the component!](./src/v1/layout/Header/Header.jsx).
+  - `Header.jsx` now displays dynamic data depending on the language choosen by the user.
+
+#### Changes in existing components:
+
+- Added styles to `NameBadge.jsx`. [Check out the component!](./src/v1/components/NameBadge/NameBadge.jsx).
+- Added styles to `HeaderButton.jsx`. [Check out the component!](./src/v1/components/HeaderButton/HeaderButton.jsx).
+
+#### New components:
+
+- Created the `FlagButton.jsx` component that will toggle the language of the website. [Check out the component!](./src/v1/components/FlagButton/FlagButton.jsx).
+
+#### New features:
+
+- Language management is now handled into `LanguageContext.jsx`. [Check it out!](./src/v1/contexts/LanguageContext.jsx).
 
 **For previous versions, please refer to [PreviousVersions.md](./PreviousVersions.md)**
 
-## Expected changes in the next version (AKA TODO)
+## Expected changes in the next version (AKA TODO):
 
-- I'll add styles to common components like `Header.jsx` and `NameBadge.jsx`.
-- `Header.jsx` content will show the translated data instead of just fixed text.
-- Some new components will be created both in the layout and components folders.
-- More info about the project here in the README.md.
+- Website's sections handled with react-router-dom.
+- Responsive version of `Header.jsx`.
+- New contact card for user's info.

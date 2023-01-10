@@ -1,5 +1,5 @@
 // IMPORTANT NOTE:
-// This component will be refactorized to become a Link provided
+// This component will be redesigned to become a Link provided
 // by react-router-dom when the package gets installed.
 // The current functionality of the component has been created with only
 // demonstration purposes.
