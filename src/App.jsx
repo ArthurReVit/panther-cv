@@ -1,5 +1,4 @@
-import Layout from './v1/Layout/Layout';
-import './App.css';
+import Layout from "./v1/Layout/Layout";
 
 const App = () => {
   return (
@@ -7,6 +6,6 @@ const App = () => {
       <Layout />
     </div>
   );
-}
+};
 
 export default App;

@@ -1,9 +1,11 @@
-import SideBar from './SideBar/SideBar';
-import SectionWrapper from './SectionWrapper/SectionWrapper';
+import SideBar from "./SideBar/SideBar";
+import SectionWrapper from "./SectionWrapper/SectionWrapper";
+
+import "./Content.css";
 
 const Content = (props) => {
   return (
-    <div>
+    <div className="content">
       <SideBar />
       <SectionWrapper content={props.content} />
     </div>

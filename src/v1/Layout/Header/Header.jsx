@@ -1,14 +1,33 @@
-import React from 'react';
+// IMPORTANT NOTE:
+// We need to create translations for this component.
+
+import NameBadge from "../../components/NameBadge/NameBadge";
+import HeaderButton from "../../components/HeaderButton/HeaderButton";
+
+import "./Header.css";
 
 const Header = (props) => {
   return (
-    <div>
-      <nav>
-        <button onClick={props.onAboutMeClick}>AboutMe</button>
-        <button onClick={props.onExperienceClick}>Experience</button>
-        <button onClick={props.onKnowledgeClick}>Knowledge</button>
+    <header className="header">
+      <NameBadge>Arturo A. Reyes Vital</NameBadge>
+
+      <nav className="headerNavMenu">
+        <HeaderButton onClick={props.onAboutMeClick}>About Me</HeaderButton>
+        <HeaderButton onClick={props.onExperienceClick}>
+          Experience
+        </HeaderButton>
+        <HeaderButton onClick={props.onKnowledgeClick}>Knowledge</HeaderButton>
       </nav>
-    </div>
+
+      <nav className="headerLangMenu">
+        <button onClick={props.onToogleLanguage} className="languageButton">
+          EN
+        </button>
+        <button onClick={props.onToogleLanguage} className="languageButton">
+          ES
+        </button>
+      </nav>
+    </header>
   );
 };
 

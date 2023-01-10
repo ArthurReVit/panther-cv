@@ -1,7 +1,7 @@
-import React from 'react';
+import "./Footer.css";
 
 const Footer = () => {
-  return <div>Linkedin and soon github</div>;
+  return <footer className="footer">Linkedin and soon github</footer>;
 };
 
 export default Footer;

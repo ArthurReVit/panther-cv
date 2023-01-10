@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Panther CV
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About Panther CV
 
-## Available Scripts
+This project aims to create an open source CV template allowing users to easily upload their data into a nice and customizable website.
 
-In the project directory, you can run:
+Right now, everything will be static since my first goal is to have a website that I can share in my Linkedin profile.
 
-### `npm start`
+As this project grows, I will integrate the following features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- API integration, allowing users to hold their data in a custom Database.
+- Administration panel allowing users to create, read, update, delete, hide and customize how their data is shown.
+- Customization panel, allowing users to change the site's colours, distributions an typography.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+For more information about this project, you can contact me at desarrollo.web_arturo@outlook.com.
 
-### `npm test`
+## Contributing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is a personal work in progress that doesn't need any contributions at this time. I expect that to change as soon as a release version is available.
 
-### `npm run build`
+## Current version
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 0.0.3
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Navigation buttons on `Header.jsx` refactorized to `HeaderButton.jsx`. [Check out the component!](./src/v1/components/HeaderButton/HeaderButton.jsx).
+- `NameBadge.jsx` has been created to display the owner's name in the header. [Check out the component!](./src/v1/components/NameBadge/NameBadge.jsx).
+- First translation files have been created and integrated into `Layout.jsx`. [See Translations](./src/v1//assets/translation) | [Check the Layout component!](./src/v1/Layout/Layout.jsx).
+- Added multiple fonts (I'll put the names and links to them in the next update).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**For previous versions, please refer to [PreviousVersions.md](./PreviousVersions.md)**
 
-### `npm run eject`
+## Expected changes in the next version (AKA TODO)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- I'll add styles to common components like `Header.jsx` and `NameBadge.jsx`.
+- `Header.jsx` content will show the translated data instead of just fixed text.
+- Some new components will be created both in the layout and components folders.
+- More info about the project here in the README.md.
