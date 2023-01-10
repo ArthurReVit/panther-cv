@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/panther-cv/static/css/main.073c9b0a.css",
-    "main.js": "/panther-cv/static/js/main.a8bd7fd6.js",
+    "main.css": "/panther-cv/static/css/main.d746b0b4.css",
+    "main.js": "/panther-cv/static/js/main.c6a11fab.js",
     "static/js/787.fde76cda.chunk.js": "/panther-cv/static/js/787.fde76cda.chunk.js",
     "index.html": "/panther-cv/index.html",
-    "main.073c9b0a.css.map": "/panther-cv/static/css/main.073c9b0a.css.map",
-    "main.a8bd7fd6.js.map": "/panther-cv/static/js/main.a8bd7fd6.js.map",
+    "main.d746b0b4.css.map": "/panther-cv/static/css/main.d746b0b4.css.map",
+    "main.c6a11fab.js.map": "/panther-cv/static/js/main.c6a11fab.js.map",
     "787.fde76cda.chunk.js.map": "/panther-cv/static/js/787.fde76cda.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.a8bd7fd6.js"
+    "static/css/main.d746b0b4.css",
+    "static/js/main.c6a11fab.js"
   ]
 }
